@@ -9,7 +9,6 @@ export default function Eboard(props){
     return(
         <div className = "marginTop100 eboard">
             <Grid container lg = {12} xs = {12} justify = "center">
-                <Divider className = "divider"/>
                 <Grid container lg = {12} className = "padding20">
                     <Grid item lg = {4}>
                         <Image className = "headshot" src = "CatherineSchofield.png" width = {400} heigth = {400}/>
@@ -38,7 +37,6 @@ export default function Eboard(props){
                         </strong>
                     </Grid>
                 </Grid>
-                <Divider/>
                 <Grid container lg = {12} className = "padding20">
                     <Grid item lg = {8} justify = 'center' style = {{alignItems : 'center'}}>
                         <h1>Julia Pollard</h1>
@@ -101,7 +99,6 @@ export default function Eboard(props){
                         </strong>
                     </Grid>
                 </Grid> 
-                <Divider className = "divider"/>
                 <Grid container lg = {12}>
                     <Grid item lg = {8}>
                         <h1>Alyssa Rolon</h1>
@@ -127,12 +124,9 @@ export default function Eboard(props){
                         </strong>
                     </Grid>
                     <Grid item lg = {4}>
-                        <Image className = "headshot" src = "headshot.jpg" width = {400} heigth = {400}/>
+                        <Image className = "headshot" src = "AlyssaRolon.jpg" width = {400} heigth = {400}/>
                     </Grid>
                 </Grid>
-                <Divider/>
-
-                <Divider className = "divider"/>
                 <Grid container lg = {12} className = "padding20">
                     <Grid item lg = {4}>
                         <Image className = "headshot" src = "AmaliaRiegelhuth.JPG" width = {400} heigth = {400}/>
@@ -189,7 +183,6 @@ export default function Eboard(props){
                         <Image className = "headshot" src = "headshot.jpg" width = {400} heigth = {400}/>
                     </Grid>
                 </Grid>
-                <Divider className = "divider"/>
                 <Grid container lg = {12} className = "padding20">
                     <Grid item lg = {4}>
                         <Image className = "headshot" src = "ClaireHines.jpg" width = {400} heigth = {400}/>
@@ -243,9 +236,37 @@ export default function Eboard(props){
                         </strong>
                     </Grid>
                     <Grid item lg = {4}>
-                        <Image className = "headshot" src = "headshot.jpg" width = {400} heigth = {400}/>
+                        <Image className = "headshot" src = "DanaSalta.jpg" width = {400} heigth = {400}/>
                     </Grid>
-                </Grid>               
+                </Grid>    
+                <Grid container lg = {12} className = "padding20">
+                    <Grid item lg = {4}>
+                        <Image className = "headshot" src = "JuliaMartins.jpg" width = {400} heigth = {400}/>
+                    </Grid>
+                    <Grid item lg = {8}>
+                        <h1>Julia Martins</h1>
+                        <strong>
+                            <p>
+                            Position: Volunteer Coordinator
+                            </p>
+                            <p>
+                            Major: Neuroscience
+                            </p>
+                            <p>
+                            Class: 2021
+                            </p>
+                            <p>
+                            Hometown: São Paulo, Brazil
+                            </p>
+                            <p>
+                            Clubs/Hobbies: I have always loved drawing and actually am about to complete my minor in digital art art BC. I also adore reading, especially fiction. 
+                            </p>
+                            <p>
+                            What you’re excited for this semester in WIS: I'm excited to welcome new freshmen women into the STEM fields!
+                            </p>
+                        </strong>
+                    </Grid>
+                </Grid>            
             </Grid>
         </div>
 )}
