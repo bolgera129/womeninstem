@@ -15,7 +15,7 @@ export default function NavBar(){
         <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal" className = "nav">
         <Menu.Item key="home">
             <Link to = 'home'>
-                <img src ='logo.png' style = {{width: '50px', height: '50px'}}/>
+                <img src ='logo.png' style = {{width: '50px', height: '50px'}} alt = 'logo'/>
             </Link>
         </Menu.Item>
         <Menu.Item key="mission" >

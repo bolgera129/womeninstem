@@ -1,5 +1,4 @@
 import React from "react"
-import {Image} from "react-bootstrap"
 import {Grid} from "@material-ui/core"
 import useWindowDimensions from "../Utils/windowDimensions"
 
@@ -11,10 +10,10 @@ export default function Mission(){
 
     return(
         <div>
-            <img src = "widelogo.png" height = {height} width = {width}/>
+            <img src = "widelogo.png" height = {height} width = {width} alt = 'wide logo'/>
             <Grid container lg = {12} className = "padding20">
                     <Grid item lg  = {4}>
-                        <img className = "roundedimage" src = "logo.png" style = {{width : "100%", height : '100%'}}/>
+                        <img className = "roundedimage" src = "logo.png" style = {{width : "100%", height : '100%'}} alt = 'bc women in stem'/>
                     </Grid>
                     <Grid item  lg = {8} justify = "center" style = {{marginTop: '50px'}}>
                         <h1>Our Mission</h1>

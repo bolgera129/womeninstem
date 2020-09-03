@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react"
-import {List, Avatar, Button, Skeleton, Checkbox, Select} from "antd"
+import {List, Skeleton, Select} from "antd"
 import { Grid } from "@material-ui/core";
 
 export default function Tutoring(){
@@ -33,7 +33,7 @@ export default function Tutoring(){
     }
 
     useEffect(() => {
-      if (params.length == 0) {
+      if (params.length === 0) {
         setPeople(data)
       }
       else{
@@ -43,6 +43,7 @@ export default function Tutoring(){
               return true
             }
           }
+          return false
       }))
     }
     },[params])

@@ -12,7 +12,7 @@ export default function Home(){
     return(
         <div>
            <Image src = "homepage.jpg"  height = {height} width = {width} />
-           <img width = {width} height = {height} className = {css.screen}/>
+           <img width = {width} height = {height} className = {css.screen} alt = 'screen'/>
            <div className = {css.overlay}>
                Women in Stem
            </div>

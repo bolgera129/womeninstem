@@ -2,8 +2,6 @@ import React from "react"
 import {Grid} from "@material-ui/core"
 import {Image} from "react-bootstrap"
 import {Divider} from "antd"
-import { List } from "antd"
-
 
 export default function Eboard(props){
 

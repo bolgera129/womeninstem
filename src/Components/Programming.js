@@ -1,6 +1,6 @@
 import React from "react"
 import { Calendar, Badge } from 'antd';
-import { Card, Col, Row } from 'antd';
+import { Card } from 'antd';
 import {  Avatar } from 'antd';
 import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
 import { Grid } from "@material-ui/core";
