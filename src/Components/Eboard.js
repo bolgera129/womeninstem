@@ -135,7 +135,7 @@ export default function Eboard(props){
                 <Divider className = "divider"/>
                 <Grid container lg = {12} className = "padding20">
                     <Grid item lg = {4}>
-                        <Image className = "headshot" src = "AmaliaRiegelhuth.JPG" width = {400} heigth = {400}/>
+                        <Image className = "headshot" src = "AmaliaRiegelhuth.JPG" height = {400}/>
                     </Grid>
                     <Grid item lg = {8}>
                         <h1>Amalia Riegelhuth</h1>
@@ -186,13 +186,13 @@ export default function Eboard(props){
                         </strong>
                     </Grid>
                     <Grid item lg = {4}>
-                        <Image className = "headshot" src = "headshot.jpg" width = {400} heigth = {400}/>
+                        <Image className = "headshot" src = "headshot.jpg" height = {400}/>
                     </Grid>
                 </Grid>
                 <Divider className = "divider"/>
                 <Grid container lg = {12} className = "padding20">
                     <Grid item lg = {4}>
-                        <Image className = "headshot" src = "ClaireHines.jpg" width = {400} heigth = {400}/>
+                        <Image className = "headshot" src = "ClaireHines.jpg" height = {400}/>
                     </Grid>
                     <Grid item lg = {8}>
                         <h1>Claire Hines</h1>
