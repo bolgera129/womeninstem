@@ -6,11 +6,11 @@ import Mission from "./Components/Mission"
 import Programming from "./Components/Programming";
 import Home from "./Components/Home"
 import NavBar from './Components/NavBar';
-import 'antd/dist/antd.css';
 import Events from './Components/Events';
 import Contact from './Components/Contact';
 import Mentorship from './Components/Mentorship'
 import Tutoring from "./Components/Tutoring"
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -42,6 +42,7 @@ function App() {
             <Home/>
           </Route>
         </Switch>   
+        <Footer/>
     </div>
   );
 }

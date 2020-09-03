@@ -1,6 +1,6 @@
 import React, { useState } from "react"
-import {Menu} from "antd"
-import {Link} from "react-router-dom"
+import {Navbar, Nav} from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function NavBar(){
 
@@ -12,33 +12,22 @@ export default function NavBar(){
     }
 
     return(
-        <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal" className = "nav">
-        <Menu.Item key="home">
-            <Link to = 'home'>
-                <img src ='logo.png' style = {{width: '50px', height: '50px'}} alt = 'logo'/>
-            </Link>
-        </Menu.Item>
-        <Menu.Item key="mission" >
-            <Link to = "mission">Mission</Link>
-        </Menu.Item>
-        <Menu.Item key="programming" >
-            <Link to = "programming">Programming</Link>
-        </Menu.Item>
-        <Menu.Item key="tutoring" >
-            <Link to = "tutoring">Tutoring</Link>
-        </Menu.Item>
-        <Menu.Item key="events" >
-            <Link to = "events">Current Events</Link>
-        </Menu.Item>
-        <Menu.Item key="eboard" >
-            <Link to = "eboard">Meet the E-board</Link>
-        </Menu.Item>
-        <Menu.Item key="mentorship" >
-            <Link to = "mentorship">Mentorship</Link>
-        </Menu.Item>
-        <Menu.Item key="contact" >
-            <Link to = "contact">Contact</Link>
-        </Menu.Item>
-      </Menu>
+        <Navbar expand="lg">
+            <Navbar.Brand>
+                <img src = "logo.png" style = {{width : '60px', height : '60px'}}/>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav>
+                <Nav.Link href="/programming">Programming</Nav.Link>
+                <Nav.Link href="/tutoring">Tutoring</Nav.Link>
+                <Nav.Link href="/events">Current Events</Nav.Link>
+                <Nav.Link href="/programming">Programming</Nav.Link>
+                <Nav.Link href="/eboard">Meet the E-Board</Nav.Link>
+                <Nav.Link href="/mentorship">Mentorship</Nav.Link>
+                <Nav.Link href="/contact">Contact Us</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
     )
 }

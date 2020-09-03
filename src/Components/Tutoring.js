@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react"
 import {List, Skeleton, Select} from "antd"
 import { Grid } from "@material-ui/core";
+import 'antd/dist/antd.css';
 
 export default function Tutoring(){
 
@@ -87,34 +88,34 @@ export default function Tutoring(){
           </h1>
           <Grid container style  = {{width: '100%', display: 'flex', justifyContent: 'space-evenly'}}>
             <Grid item lg = {4} sm = {12}>
-              <h3>
+              <p>
                 <a href = 'https://tutorial.math.lamar.edu/'>
                   Paul's Math Notes
                 </a>
                 <p>
                 Great resource for free online notes and tutorials explaining concepts in Algebra, Calculus, and Differential Equations.
                 </p>
-              </h3>
+              </p>
             </Grid>
             <Grid item lg = {4} sm = {12}>
-              <h3>
+              <p>
                 <a href = 'https://www.albert.io'>
                 Albert Organic Chemistry
                 </a>
                 <p>
                 Great for fast practice questions of varying levels. A little pricey but it helped me confirm what I knew and explained things I misunderstood in a new way. 
                 </p>
-              </h3>
+              </p>
             </Grid>
             <Grid item lg = {4} sm = {12}>
-              <h3>
+              <p>
                 <a href = 'https://www.bc.edu/libraries/help/tutoring/tutoringinfo.html'>
                 BC Library
                 </a>
                 <p>
                   Get 1 on 1 tutoring from BC designated tutors
                 </p>
-              </h3>   
+              </p>
             </Grid>
           </Grid>
         </Grid>

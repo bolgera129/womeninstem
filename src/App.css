@@ -69,3 +69,7 @@ li a:hover{
   text-align: center;
   padding-top: 22px;
 }
+
+nav{
+  background-color: #f2e6ff !important;
+}
