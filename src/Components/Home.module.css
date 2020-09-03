@@ -1,0 +1,18 @@
+.overlay{
+    position: absolute;
+    top: 35%;
+    left: 22%;
+    z-index: 2;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 150px;
+    font-weight: bolder;
+}
+
+.screen{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+}

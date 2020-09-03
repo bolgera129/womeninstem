@@ -11,3 +11,189 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+.headerImg{
+  left: 0em;
+  top: 0em;
+  margin-right: 0em;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) !important;
+  padding: 0em !important;
+}
+
+
+
+#container{
+  margin: 0em;
+}
+
+@media only screen and (max-width: 768px) {
+.overlayTitle{
+  position: absolute;
+  color: white;
+  left: 0%;
+  top: 35%;
+  font-weight: bolder;
+  width: 95%;
+  font-size: 50px;
+  justify-content: center;
+}
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .overlayTitle{
+      position: absolute;
+      color: white;
+      text-align: center;
+      top: 5%;
+      justify-content: center;
+      left: -0%;
+      right: 0%;
+      font-weight: 100;
+      font-family: 'BillyOhio';
+      font-size: 175px;
+      width: 100%;
+  } 
+}
+
+
+
+.mainCont{
+  width: 100%;
+}
+
+#animation{
+  animation-duration: 500ms;
+  /* animation-iteration-count: 4; */
+}
+.roundedimage{
+  border-radius: 5px;
+}
+
+.event{
+  width: 100%;
+  padding: 0;
+}
+
+.width90{
+  width: 90%;
+}
+
+.tag{
+  border-radius: 4px;
+  padding:5px;
+  margin: 3px;
+}
+
+.nav{
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.padding20{
+  padding: 20px;
+}
+
+li a {
+  z-index: 100000;
+}
+
+.Calculus, .Linear, .Differential{
+  background-color: #ff8080
+  ;
+}
+.Gen, .Cell, .Molecules, .Chemistry, .Earth{
+  background-color: #A1FD9B;
+}
+
+
+
+
+.marginTop30{
+  margin-top: 30px;
+}
+.paddingTop60{
+  padding-top: 60px;
+}
+.padding20{
+  padding: 50px;
+}
+
+.width100{
+  width: 100%;
+}
+
+.centerText{
+  text-align: center;
+}
+
+.flex{
+  display: flex;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+/* Eboard */
+
+
+
+.description{
+  text-align: center;
+  border-bottom: black;
+}
+
+.description h1{
+margin-top: 150px;
+}
+
+.eboard{
+  background-color: white;
+}
+
+.headshot{
+  border-radius: 4px;
+}
+
+.divider{
+  margin: 5rem 0;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+  z-index: 2;
+  width: 90%;
+  justify-self: center;
+}
+
+/* Calendar */
+
+.events {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.events .ant-badge-status {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100% !important;
+  text-overflow: ellipsis;
+  font-size: 12px;
+}
+.notes-month {
+  text-align: center;
+  font-size: 28px;
+}
+.notes-month section {
+  font-size: 28px;
+}

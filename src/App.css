@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+
+.ant-menu-horizontal{
+  background-color :  #f2e6ff  !important;
+}
+
+li a:hover{
+  color: gray !important
+}
+
+
+
+
+.ant-menu-horizontal > .ant-menu-item-selected a {
+  color: gray !important;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected{
+  border-bottom: 2px solid gray !important;
+}
+
+.margins100{
+  margin: 100px;
+}
+
+.blackText{
+  color: black;
+}
+
+.articled{
+  text-align: center;
+  padding-top: 22px;
+}
