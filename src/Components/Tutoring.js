@@ -54,11 +54,11 @@ export default function Tutoring(){
 
 
     const { Option } = Select;
-    const subjects = ["Calculus","Earth and Environmental Science", "Cell Bio", "Linear Algebra", 'Gen Chem','Differential Equations','Molecules and Cells']
+    const subjects = ["Calculus","Cell Bio",'Differential Equations',"Earth and Environmental Science", 'Gen Chem',"Linear Algebra", 'Molecules and Cells']
 
 
     return(
-        <Grid justify = "center" style ={{margin:"0" ,padding: "100px"}}>
+        <Grid justify = "center" style ={{margin:"0" ,padding: "40px"}}>
           <h1 style = {{paddingBottom: '25px', fontSize:'25px'}}>
             Tutoring
           </h1>
@@ -89,7 +89,7 @@ export default function Tutoring(){
           <Grid container style  = {{width: '100%', display: 'flex', justifyContent: 'space-evenly'}}>
             <Grid item lg = {4} sm = {12}>
               <p>
-                <a href = 'https://tutorial.math.lamar.edu/'>
+                <a style = {{color: ' #8c1aff'}} href = 'https://tutorial.math.lamar.edu/'>
                   Paul's Math Notes
                 </a>
                 <p>
@@ -99,7 +99,7 @@ export default function Tutoring(){
             </Grid>
             <Grid item lg = {4} sm = {12}>
               <p>
-                <a href = 'https://www.albert.io'>
+                <a style = {{color: '#8c1aff'}} href = 'https://www.albert.io'>
                 Albert Organic Chemistry
                 </a>
                 <p>
@@ -109,7 +109,7 @@ export default function Tutoring(){
             </Grid>
             <Grid item lg = {4} sm = {12}>
               <p>
-                <a href = 'https://www.bc.edu/libraries/help/tutoring/tutoringinfo.html'>
+                <a style = {{color: ' #8c1aff'}} href = 'https://www.bc.edu/libraries/help/tutoring/tutoringinfo.html'>
                 BC Library
                 </a>
                 <p>

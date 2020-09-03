@@ -8,7 +8,7 @@ export default function Footer(){
 
 
   return(
-    <Grid>
+    <Grid style = {{padding:'20px'}}>
       <Grid>
         <span>
           <a style = {{padding : '10px', fontSize: '40px' , color:'#e6ccff'}} href = 'https://www.facebook.com/bcwomeninstem/'>

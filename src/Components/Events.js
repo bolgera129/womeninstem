@@ -1,6 +1,7 @@
 import React from "react"
 import { Divider, Card } from "antd"
 import {Grid} from "@material-ui/core"
+import "antd/dist/antd.css";
 
 export default function Events(){
     return(
@@ -55,7 +56,7 @@ export default function Events(){
                             <Grid item lg = {4} sm = {12}>
                                 <img src= "missing.jpeg" style= {{width:"75px", height: "75px", padding: 0}} alt = 'chemists shut down to reflect on diversity'/>
                             </Grid>
-                            <Grid item lg = {8} sm = {12}>
+                            <Grid item lg = {8} sm = {12} className = 'articled'>
                                 <p>
                                     Chemists #ShutDownSTEM to reflect on diversity in science
                                 </p>
@@ -71,7 +72,7 @@ export default function Events(){
                             <Grid item lg = {4} sm = {12}>
                                 <img src= "lgbt.png" style= {{width:"75px", height: "75px", padding: 0}} alt = 'lgbt in stem'/>
                             </Grid>
-                            <Grid item lg = {8} sm = {12}>
+                            <Grid item lg = {8} sm = {12} className = 'articled'>
                                 <p>
                                     The Invisible Minority in STEM
                                 </p>
@@ -87,7 +88,7 @@ export default function Events(){
                             <Grid item lg = {4} sm = {12}>
                                 <img src= "diverse.png" style= {{width:"125px", height: "75px", padding: 0}} alt = 'diverse education'/>
                             </Grid>
-                            <Grid item lg = {8} sm = {12}>
+                            <Grid item lg = {8} sm = {12} className = 'articled'>
                                 <p>
                                     Can the Racial and Economic Justice Movement Help Advance Equity in Higher Education?
                                 </p>
@@ -103,7 +104,7 @@ export default function Events(){
                             <Grid item lg = {4} sm = {12}>
                                 <img src= "diversity.jpg" style= {{width:"125px", height: "75px", padding: 0}} alt = 'A Survival Guide for Black, Indigenous, and Other Women of Color in Academe'/>
                             </Grid>
-                            <Grid item lg = {8} sm = {12}>
+                            <Grid item lg = {8} sm = {12} className = 'articled'>
                                 <p>
                                 A Survival Guide for Black, Indigenous, and Other Women of Color in Academia                                </p>
                             </Grid>
@@ -118,7 +119,7 @@ export default function Events(){
                             <Grid item lg = {4} sm = {12}>
                                 <img src= "blm.png" style= {{width:"125px", height: "75px", padding: 0}} alt = 'The False Promise of Anti-racism Books'/>
                             </Grid>
-                            <Grid item lg = {8} sm = {12}>
+                            <Grid item lg = {8} sm = {12} className = 'articled'>
                                 <p>
                                 The False Promise of Anti-racism Books
                                 </p>

@@ -68,8 +68,26 @@ li a:hover{
 .articled{
   text-align: center;
   padding-top: 22px;
+  color: black;
+  text-decoration: none;
+
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+
+.articled:hover{
+  color: gray;
 }
 
 nav{
   background-color: #f2e6ff !important;
+}
+
+nav{
+  padding-top: 0em !important;
+  padding-bottom: 0em !important;
+  padding-right: 10px;
+  padding-left: 10px;
 }

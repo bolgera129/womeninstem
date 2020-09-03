@@ -40,6 +40,16 @@ export default function Contact(){
             {/* <div style = {{width : '100%', backgroundColor : '#cc99ff'}}> */}
                 <div style = {{backgroundColor: "#f2e6ff", width: '100%', borderWidth:'5px', height:'100%'}}>
                     <Grid container className = "padding20">
+                        <Grid lg = {12}>
+                            <h1>
+                                Subscribe
+                            </h1>
+                        </Grid>
+                        <Grid item lg = {12}>
+                            <p>
+                                Enter your contact information below to subscribe to our weekly newletter
+                            </p>
+                        </Grid>
                         <Grid item lg = {4}>
                             <Input 
                                 placeholder = "First Name"
