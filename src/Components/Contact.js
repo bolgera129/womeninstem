@@ -47,7 +47,7 @@ export default function Contact(){
                         </Grid>
                         <Grid item lg = {12}>
                             <p>
-                                Enter your contact information below to subscribe to our weekly newletter
+                                Enter your contact information below to subscribe to our weekly newletter.
                             </p>
                         </Grid>
                         <Grid item lg = {4}>
