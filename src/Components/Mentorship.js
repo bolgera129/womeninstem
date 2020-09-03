@@ -27,9 +27,9 @@ export default function Mentorship(){
                         </p>
                     </Grid>
                     <Grid item lg = {6} style = {{padding: '50px'}}>
-                        <h1>
+                        <h6>
                             Role of Mentor:
-                        </h1>
+                        </h6>
                         <p>
                             <p>
                             Lead a small community of female students with similar majors and/or career paths 
@@ -58,9 +58,9 @@ export default function Mentorship(){
                         </p>
                     </Grid>
                     <Grid item lg = {6} style = {{padding: '50px'}}>
-                        <h1>
+                        <h6>
                             Role of a Mentee
-                        </h1>
+                        </h6>
                         <p>
                             <p>
                             Connect with upperclassmen on campus and develop meaningful relationships
