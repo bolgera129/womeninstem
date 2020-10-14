@@ -30,55 +30,49 @@ export default function Mentorship(){
                         <h6>
                             Role of Mentor:
                         </h6>
-                        <p>
-                            <p>
+                        <ul>
+                            <li>
                             Lead a small community of female students with similar majors and/or career paths 
-                            </p>
-                            <p>
+                            </li>
+                            <li>
                             Recommend professors and advisors 
-                            </p>
-                            <p>
+                            </li>
+                            <li>
                             Offer internship and career advice
-                            </p>
-                            <p>
+                            </li>
+                            <li>
                             Plan fun bonding activities outside of formal events
-                            </p>
-                            <p>
+                            </li>
+                            <li>
                             Socials
-                            </p>
-                            <p>
+                            </li>
+                            <li>
                             Career panels 
-                            </p>
-                            <p>
+                            </li>
+                            <li>
                             Holiday activities
-                            </p>
-                            <p>
-                            Apply to be a mentor here
-                            </p>
-                        </p>
+                            </li>
+                        </ul>
                     </Grid>
                     <Grid item lg = {6} style = {{padding: '50px'}}>
                         <h6>
                             Role of a Mentee
                         </h6>
-                        <p>
-                            <p>
+                        <ul>
+                            <li>
                             Connect with upperclassmen on campus and develop meaningful relationships
-                            </p>
-                            <p>
+                            </li>
+                            <li>
                             Meet and support fellow underclassmen in mentorship group
-                            </p>
-                            <p>
+                            </li>
+                            <li>
                             Gain insight from mentors and other mentees into resources at Boston College, internships, and life beyond BC.
-                            </p>
-                            <p>
-                            Apply to be a mentee here
-                            </p>
-                        </p>
+                            </li>
+                        </ul>
                     </Grid>
                 </Grid>
                 <Grid lg = {6}>
-
+                    <img style = {{width : "100%"}} src = "/WIS/MentorshipSidePhoto.png"/>
                 </Grid>
             </Grid>
         </div>

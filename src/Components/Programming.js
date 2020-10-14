@@ -12,27 +12,19 @@ export default function Programming(){
     function getListData(value) {
         let listData;
         switch (value.date()) {
-          case 8:
+          case 14:
             listData = [
-              { type: 'warning', content: 'This is warning event.' },
-              { type: 'success', content: 'This is usual event.' },
+              { type: 'success', content: 'Fireside Chat' }
             ];
             break;
-          case 10:
+          case 20:
             listData = [
-              { type: 'warning', content: 'This is warning event.' },
-              { type: 'success', content: 'This is usual event.' },
-              { type: 'error', content: 'This is error event.' },
+              { type: 'success', content: 'Strategic Networking Workshop' }
             ];
             break;
-          case 15:
+          case 28:
             listData = [
-              { type: 'warning', content: 'This is warning event' },
-              { type: 'success', content: 'This is very long usual event。。....' },
-              { type: 'error', content: 'This is error event 1.' },
-              { type: 'error', content: 'This is error event 2.' },
-              { type: 'error', content: 'This is error event 3.' },
-              { type: 'error', content: 'This is error event 4.' },
+              { type: 'success', content: 'Mentorship Event' }
             ];
             break;
           default:
@@ -71,7 +63,7 @@ export default function Programming(){
 
     return(
         <div className = "padding20">
-          <div className = "padding20">
+          <div>
             <h1 className = "centerText">
               Featured Events
             </h1>
@@ -81,19 +73,13 @@ export default function Programming(){
                     cover={
                       <img
                         alt="example"
-                        src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                        src="/WIS/Fireside_Chat_14th.png"
                       />
                     }
-                    actions={[
-                      <SettingOutlined key="setting" />,
-                      <EditOutlined key="edit" />,
-                      <EllipsisOutlined key="ellipsis" />,
-                    ]}
                   >
                     <Meta
-                      avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-                      title="Card title"
-                      description="This is the description"
+                      title="Fireside Chat with Professor Taghian"
+                      description="Wednesday October 14th, 7 PM"
                     />
                   </Card>
                 </Grid>
@@ -102,19 +88,13 @@ export default function Programming(){
                     cover={
                       <img
                         alt="example"
-                        src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                        src="/WIS/gartner.png"
                       />
                     }
-                    actions={[
-                      <SettingOutlined key="setting" />,
-                      <EditOutlined key="edit" />,
-                      <EllipsisOutlined key="ellipsis" />,
-                    ]}
                   >
                     <Meta
-                      avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-                      title="Card title"
-                      description="This is the description"
+                      title="Strategic Networking Workshop"
+                      description="Tuesday October 20th, 7 PM"
                     />
                   </Card>
                 </Grid>
@@ -123,19 +103,13 @@ export default function Programming(){
                     cover={
                       <img
                         alt="example"
-                        src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                        src="/WIS/MentorshipEvent28.png"
                       />
                     }
-                    actions={[
-                      <SettingOutlined key="setting" />,
-                      <EditOutlined key="edit" />,
-                      <EllipsisOutlined key="ellipsis" />,
-                    ]}
                   >
                     <Meta
-                      avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-                      title="Card title"
-                      description="This is the description"
+                      title="Mentorship Event"
+                      description="Wednesday October 28th, 7 PM"
                     />
                   </Card>
                 </Grid>

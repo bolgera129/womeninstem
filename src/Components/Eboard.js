@@ -9,9 +9,12 @@ export default function Eboard(props){
     return(
         <div className = "marginTop100 eboard">
             <Grid container lg = {12} xs = {12} justify = "center">
+                <Grid>
+                    <Image style = {{width : "90%"}}src = "/WIS/MeetTheEboard.JPG"/>
+                </Grid>
                 <Grid container lg = {12} className = "padding20">
                     <Grid item lg = {4}>
-                        <Image className = "headshot" src = "CatherineSchofield.png" width = {400} heigth = {400}/>
+                        <Image className = "headshot" src = "/WIS/Catherine.JPG" width = {400} heigth = {400}/>
                     </Grid>
                     <Grid item lg = {8}>
                         <h1>Catherine Schofield</h1>
@@ -62,12 +65,68 @@ export default function Eboard(props){
                         </strong>
                     </Grid>
                     <Grid item lg = {4}>
-                        <Image className = "headshot" src = "JuliaPollard.jpeg" width = {400} heigth = {400}/>
+                        <Image className = "headshot" src = "/WIS/JuliaP.JPG" width = {400} heigth = {400}/>
                     </Grid>
                 </Grid>  
                 <Grid container lg = {12} className = "padding20">
                     <Grid item lg = {4}>
-                        <Image className = "headshot" src = "headshot.jpg" width = {400} heigth = {400}/>
+                        <Image className = "headshot" src = "/WIS/Caitlin.jpg" width = {400} heigth = {400}/>
+                    </Grid>
+                    <Grid item lg = {8}>
+                        <h1>Caitlin Wolfstaetter</h1>
+                        <strong>
+                            <p>
+                            Position: Treasurer
+                            </p>
+                            <p>
+                            Major: Math BA with a minor in finance
+                            </p>
+                            <p>
+                            Class: 2022
+                            </p>
+                            <p>
+                            Hometown: New York City
+                            </p>
+                            <p>
+                            Clubs/Hobbies: I love going to coffee shops. Some may call it a caffeine dependency but i think it’s a fun way to get out and see different places. But you’ll never see me without a cup of coffee within arms reach. 
+                            </p>
+                            <p>
+                            What you’re excited for this semester in WIS: I am really excited to be continuing our mentor program and to meet everyone!
+                            </p>
+                        </strong>
+                    </Grid>
+                </Grid>
+                <Grid container lg = {12} className = "padding20">
+                    <Grid item lg = {8}>
+                        <h1>Julia Martins</h1>
+                        <strong>
+                            <p>
+                            Position: Volunteer Coordinator
+                            </p>
+                            <p>
+                            Major: Neuroscience
+                            </p>
+                            <p>
+                            Class: 2021
+                            </p>
+                            <p>
+                            Hometown: São Paulo, Brazil
+                            </p>
+                            <p>
+                            Clubs/Hobbies: I have always loved drawing and actually am about to complete my minor in digital art art BC. I also adore reading, especially fiction. 
+                            </p>
+                            <p>
+                            What you’re excited for this semester in WIS: I'm excited to welcome new freshmen women into the STEM fields!
+                            </p>
+                        </strong>
+                    </Grid>
+                    <Grid item lg = {4}>
+                        <Image className = "headshot" src = "/WIS/JuliaM.JPG" width = {400} heigth = {400}/>
+                    </Grid>
+                </Grid>      
+                <Grid container lg = {12} className = "padding20">
+                    <Grid item lg = {4}>
+                        <Image className = "headshot" src = "/WIS/Emma_Oss.jpg" width = {400} heigth = {400}/>
                     </Grid>
                     <Grid item lg = {8}>
                         <h1>Emma Oss</h1>
@@ -124,12 +183,12 @@ export default function Eboard(props){
                         </strong>
                     </Grid>
                     <Grid item lg = {4}>
-                        <Image className = "headshot" src = "AlyssaRolon.jpg" width = {400} heigth = {400}/>
+                        <Image className = "headshot" src = "/WIS/Alyssa.JPG" width = {400} heigth = {400}/>
                     </Grid>
                 </Grid>
                 <Grid container lg = {12} className = "padding20">
                     <Grid item lg = {4}>
-                        <Image className = "headshot" src = "AmaliaRiegelhuth.JPG" width = {400} heigth = {400}/>
+                        <Image className = "headshot" src = "/WIS/Amalia.JPG" width = {400} heigth = {400}/>
                     </Grid>
                     <Grid item lg = {8}>
                         <h1>Amalia Riegelhuth</h1>
@@ -157,35 +216,35 @@ export default function Eboard(props){
                 </Grid>
                 <Grid container lg = {12} className = "padding20">
                     <Grid item lg = {8}>
-                        <h1>Caitlin Wolfstaetter</h1>
+                        <h1>Dana Salta</h1>
                         <strong>
                             <p>
-                            Position: Treasurer
+                            Position: Secretary
                             </p>
                             <p>
-                            Major: Math BA with a minor in finance
+                            Major: Math with minors in Chemistry and Spanish
                             </p>
                             <p>
-                            Class: 2022
+                            Class: 2023
                             </p>
                             <p>
-                            Hometown: New York City
+                            Hometown: Ridgewood, NJ
                             </p>
                             <p>
-                            Clubs/Hobbies: I love going to coffee shops. Some may call it a caffeine dependency but i think it’s a fun way to get out and see different places. But you’ll never see me without a cup of coffee within arms reach. 
+                            Clubs/Hobbies: I love reading, baking, and this past year I was involved in Chemistry Club and community service in addition to Women in STEM.
                             </p>
                             <p>
-                            What you’re excited for this semester in WIS: I am really excited to be continuing our mentor program and to meet everyone!
+                            What you’re excited for this semester in WIS: I’m so excited to see everyone, and especially to meet new freshmen!
                             </p>
                         </strong>
                     </Grid>
                     <Grid item lg = {4}>
-                        <Image className = "headshot" src = "headshot.jpg" width = {400} heigth = {400}/>
+                        <Image className = "headshot" src = "/WIS/Dana.jpg" width = {400} heigth = {400}/>
                     </Grid>
                 </Grid>
                 <Grid container lg = {12} className = "padding20">
                     <Grid item lg = {4}>
-                        <Image className = "headshot" src = "ClaireHines.jpg" width = {400} heigth = {400}/>
+                        <Image className = "headshot" src = "/WIS/Claire.jpg" width = {400} heigth = {400}/>
                     </Grid>
                     <Grid item lg = {8}>
                         <h1>Claire Hines</h1>
@@ -210,63 +269,7 @@ export default function Eboard(props){
                             </p>
                         </strong>
                     </Grid>
-                </Grid> 
-                <Grid container lg = {12} className = "padding20">
-                    <Grid item lg = {8}>
-                        <h1>Dana Salta</h1>
-                        <strong>
-                            <p>
-                            Position: Secretary
-                            </p>
-                            <p>
-                            Major: Math with minors in Chemistry and Spanish
-                            </p>
-                            <p>
-                            Class: 2023
-                            </p>
-                            <p>
-                            Hometown: Ridgewood, NJ
-                            </p>
-                            <p>
-                            Clubs/Hobbies: I love reading, baking, and this past year I was involved in Chemistry Club and community service in addition to Women in STEM.
-                            </p>
-                            <p>
-                            What you’re excited for this semester in WIS: I’m so excited to see everyone, and especially to meet new freshmen!
-                            </p>
-                        </strong>
-                    </Grid>
-                    <Grid item lg = {4}>
-                        <Image className = "headshot" src = "DanaSalta.jpg" width = {400} heigth = {400}/>
-                    </Grid>
-                </Grid>    
-                <Grid container lg = {12} className = "padding20">
-                    <Grid item lg = {4}>
-                        <Image className = "headshot" src = "JuliaMartins.jpg" width = {400} heigth = {400}/>
-                    </Grid>
-                    <Grid item lg = {8}>
-                        <h1>Julia Martins</h1>
-                        <strong>
-                            <p>
-                            Position: Volunteer Coordinator
-                            </p>
-                            <p>
-                            Major: Neuroscience
-                            </p>
-                            <p>
-                            Class: 2021
-                            </p>
-                            <p>
-                            Hometown: São Paulo, Brazil
-                            </p>
-                            <p>
-                            Clubs/Hobbies: I have always loved drawing and actually am about to complete my minor in digital art art BC. I also adore reading, especially fiction. 
-                            </p>
-                            <p>
-                            What you’re excited for this semester in WIS: I'm excited to welcome new freshmen women into the STEM fields!
-                            </p>
-                        </strong>
-                    </Grid>
-                </Grid>            
+                </Grid>           
             </Grid>
         </div>
 )}

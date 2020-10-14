@@ -13,7 +13,7 @@ export default function Contact(){
     return(
         <div>
             <div style ={{padding: '50px'}}>
-                <h1 className = "centerText padding20">
+                <h1 className = "centerText">
                             Get Involved!
                         </h1>
                         <Divider/>
@@ -23,7 +23,7 @@ export default function Contact(){
                             Partners
                         </h2>
                         <p>
-                            A bunch of text explaning a bunch of things
+                        If you are interested in contributing to our organization by sharing information or through partnership events or on your search for interns, please reach out to mailto:bcwomeninstem@gmail.com We look forward to hearing from you!
                         </p>
                     </Grid>
                     <Grid item justify = "center" lg = {6}>
@@ -31,12 +31,28 @@ export default function Contact(){
                             Students
                         </h2>
                         <p>
-                            A bunch of text explaning a bunch of things
+                        We are excited to welcome all women from the variety of STEM fields here at BC.
+                        <p>
+                             The first step in getting involved is to join our listserv by either clinking the monkey at the bottom of the page or filling out the form below. We look forward to seeing you at our next event!
+                        </p>
                         </p>
 
                     </Grid>
                 </Grid>
             </div>
+            <Grid item container justify = 'center'>
+                <Grid lg = {2}>
+
+                </Grid>
+                <Grid lg = {8}>
+                    <p>
+                        {`If you would like to connect with any e-board member specifically out emails are as follows: Catherine Schofield <schoficb@bc.edu>, Julia Pollard <pollarju@bc.edu>, Caitlin Wolfstaetter <wolfstae@bc.edu>, Claire Hines <hinescl@bc.edu>, Dana Salta <saltad@bc.edu>, Emma Oss <osse@bc.edu>, Julia Victoria Segatello Martins <martiajt@bc.edu>, Alyssa Rolon <rolona@bc.edu>, Amalia Riegelhuth <riegelhu@bc.edu>`}
+                    </p>                    
+                </Grid>
+                <Grid lg = {2}>
+
+                </Grid>
+            </Grid>
             {/* <div style = {{width : '100%', backgroundColor : '#cc99ff'}}> */}
                 <div style = {{backgroundColor: "#f2e6ff", width: '100%', borderWidth:'5px', height:'100%'}}>
                     <Grid container className = "padding20">
