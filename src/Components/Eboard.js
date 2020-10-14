@@ -9,9 +9,6 @@ export default function Eboard(props){
     return(
         <div className = "marginTop100 eboard">
             <Grid container lg = {12} xs = {12} justify = "center">
-                <Grid>
-                    <Image style = {{width : "90%"}}src = "/WIS/MeetTheEboard.JPG"/>
-                </Grid>
                 <Grid container lg = {12} className = "padding20">
                     <Grid item lg = {4}>
                         <Image className = "headshot" src = "/WIS/Catherine.JPG" width = {400} heigth = {400}/>
@@ -45,10 +42,10 @@ export default function Eboard(props){
                         <h1>Julia Pollard</h1>
                         <strong>
                             <p>
-                                Position: Vice President with a Minor in Medical Humanities
+                                Position: Vice President
                             </p>
                             <p>
-                                Major: Biochemistry
+                                Major: Biochemistry with a Minor in Medical Humanities
                             </p>
                             <p>
                                 Class: 2022

@@ -8,9 +8,9 @@ export default function Mentorship(){
     return(
         <div>
             <Grid container>
-            <Grid item lg = {12}>
-                        <Image fluid src = 'mentorship.png' style = {{width : "100%"}}/>
-                    </Grid>
+                <Grid>
+                    <Image style = {{width : "100%"}}src = "/WIS/MeetTheEboard.JPG"/>
+                </Grid>
                 <Grid item container lg = {6}>
 
                     <Grid justify = 'center' style = {{textAlign: 'center', width:'100%', margin:'50px'}}>
