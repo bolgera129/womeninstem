@@ -17,7 +17,7 @@ export default function Home(){
            <Image src = "homepage.jpg"  height = {height} width = {width} />
            <Image width = {width} height = {height} className = {css.screen} alt = ''/>
            <div className = {css.overlay}>
-               Women in Stem
+               Boston College Women in Stem
            </div>
            <Grid container justify = 'center'>
                 <strong style = {{width : "80%", marginTop: '20px'}}>

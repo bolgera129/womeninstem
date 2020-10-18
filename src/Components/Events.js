@@ -43,6 +43,27 @@ export default function Events(){
                     </a>
                 </Card>    
                 </Grid>
+                <Grid item lg = {6}>
+                <Card className = 'event'>
+                    <a href = 'https://www.nobelprize.org/prizes/chemistry/2020/summary/'>
+                        <Grid container justify = "center"  style= {{ padding: 0}}>
+                            <Grid container item lg = {4} sm = {12}>
+                                <Grid item lg = {6}>
+                                    <img src= "nobelPrize1.jpg" style= {{width:"70px", height: "100px", padding: 0}} alt = 'our community now'/>
+                                </Grid>
+                                <Grid item lg = {6}>
+                                    <img src= "nobelPrize2.jpg" style= {{width:"70px", height: "100px", padding: 0}} alt = 'our community now'/>
+                                </Grid>
+                            </Grid>
+                            <Grid item lg = {8} sm = {12} className = 'articled'>
+                                <p>
+                                The Nobel Prize in Chemistry 2020 was awarded jointly to Emmanuelle Charpentier and Jennifer A. Doudna "for the development of a method for genome editing."
+                                </p>
+                            </Grid>
+                        </Grid>
+                    </a>
+                </Card>    
+                </Grid>
             </Grid>
             <Divider/>
                 <h2>

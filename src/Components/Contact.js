@@ -49,7 +49,15 @@ export default function Contact(){
                 </Grid>
                 <Grid lg = {8}>
                     <p>
-                        {`If you would like to connect with any e-board member specifically our emails are as follows: Catherine Schofield <schoficb@bc.edu>, Julia Pollard <pollarju@bc.edu>, Caitlin Wolfstaetter <wolfstae@bc.edu>, Claire Hines <hinescl@bc.edu>, Dana Salta <saltad@bc.edu>, Emma Oss <osse@bc.edu>, Julia Victoria Segatello Martins <martiajt@bc.edu>, Alyssa Rolon <rolona@bc.edu>, Amalia Riegelhuth <riegelhu@bc.edu>`}
+                        {`If you would like to connect with any e-board member specifically our emails are as follows: Catherine Schofield <schoficb@bc.edu>, 
+                        Julia Pollard <pollarju@bc.edu>, 
+                        Caitlin Wolfstaetter <wolfstae@bc.edu>, 
+                        Claire Hines <hinescl@bc.edu>, 
+                        Dana Salta <saltad@bc.edu>, 
+                        Emma Oss <osse@bc.edu>, 
+                        Julia Victoria Segatello Martins <martiajt@bc.edu>, 
+                        Alyssa Rolon <rolona@bc.edu>, 
+                        Amalia Riegelhuth <riegelhu@bc.edu>`}
                     </p>                    
                 </Grid>
                 <Grid lg = {2}>
@@ -66,7 +74,7 @@ export default function Contact(){
                         </Grid>
                         <Grid item lg = {12}>
                             <p>
-                                Enter your contact information below to subscribe to our weekly newletter.
+                                Enter your contact information below to subscribe to our weekly emails.
                             </p>
                         </Grid>
                         <Grid item lg = {4}>

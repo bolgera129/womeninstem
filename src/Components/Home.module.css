@@ -1,7 +1,8 @@
 .overlay{
     position: absolute;
     top: 35%;
-    left: 22%;
+    left: 12.5%;
+    width: 75%;
     z-index: 2;
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;

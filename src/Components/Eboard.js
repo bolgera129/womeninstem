@@ -34,6 +34,9 @@ export default function Eboard(props){
                             <p>
                                 What you’re excited for this semester in WIS: I am looking forward to empowering other BC women and cultivating an uplifting community among our members, especially during these isolating times. I can’t wait to see how our club will grow this year!
                             </p>
+                            <p>
+                                Email: schoficb@bc.edu
+                            </p>
                         </strong>
                     </Grid>
                 </Grid>
@@ -59,6 +62,10 @@ export default function Eboard(props){
                             <p>
                                 What you’re excited for this semester in WIS: I am excited to meet new members and hear about what others are interested in!
                             </p>
+                            <p>
+                                Email: pollarju@bc.edu
+                            </p>
+
                         </strong>
                     </Grid>
                     <Grid item lg = {4}>
@@ -90,6 +97,9 @@ export default function Eboard(props){
                             <p>
                             What you’re excited for this semester in WIS: I am really excited to be continuing our mentor program and to meet everyone!
                             </p>
+                            <p>
+                                Email: wolfstae@bc.edu
+                            </p>
                         </strong>
                     </Grid>
                 </Grid>
@@ -114,6 +124,9 @@ export default function Eboard(props){
                             </p>
                             <p>
                             What you’re excited for this semester in WIS: I'm excited to welcome new freshmen women into the STEM fields!
+                            </p>
+                            <p>
+                                Email: martiajt@bc.edu
                             </p>
                         </strong>
                     </Grid>
@@ -152,6 +165,9 @@ export default function Eboard(props){
                             What you’re excited for this semester in WIS: I am excited to get to know more of my fellow Women in STEM, even with the new format!
 
                             </p>
+                            <p>
+                                Email: osse@bc.edu
+                            </p>
                         </strong>
                     </Grid>
                 </Grid> 
@@ -176,6 +192,9 @@ export default function Eboard(props){
                             </p>
                             <p>
                                 What you’re excited for this semester in WIS: I’m so excited to meet all the new members this year! 
+                            </p>
+                            <p>
+                                Email: rolona@bc.edu
                             </p>
                         </strong>
                     </Grid>
@@ -208,6 +227,9 @@ export default function Eboard(props){
                             <p>
                             What you’re excited for this semester in WIS: I am excited to meet all of the new freshmen and for our new bi-weekly discussions.
                             </p>
+                            <p>
+                                Email: riegelhu@bc.edu
+                            </p>
                         </strong>
                     </Grid>
                 </Grid>
@@ -232,6 +254,9 @@ export default function Eboard(props){
                             </p>
                             <p>
                             What you’re excited for this semester in WIS: I’m so excited to see everyone, and especially to meet new freshmen!
+                            </p>
+                            <p>
+                                Email: saltad@bc.edu
                             </p>
                         </strong>
                     </Grid>
@@ -263,6 +288,9 @@ export default function Eboard(props){
                             </p>
                             <p>
                             What you’re excited for this semester in WIS: I am so excited to connect with new freshmen and returning members and to be a mentor this year.
+                            </p>
+                            <p>
+                              Email: hinescl@bc.edu
                             </p>
                         </strong>
                     </Grid>
