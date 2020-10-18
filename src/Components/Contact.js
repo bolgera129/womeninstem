@@ -43,28 +43,7 @@ export default function Contact(){
                     </Grid>
                 </Grid>
             </div>
-            <Grid item container justify = 'center'>
-                <Grid lg = {2}>
-
-                </Grid>
-                <Grid lg = {8}>
-                    <p>
-                        {`If you would like to connect with any e-board member specifically our emails are as follows: Catherine Schofield <schoficb@bc.edu>, 
-                        Julia Pollard <pollarju@bc.edu>, 
-                        Caitlin Wolfstaetter <wolfstae@bc.edu>, 
-                        Claire Hines <hinescl@bc.edu>, 
-                        Dana Salta <saltad@bc.edu>, 
-                        Emma Oss <osse@bc.edu>, 
-                        Julia Victoria Segatello Martins <martiajt@bc.edu>, 
-                        Alyssa Rolon <rolona@bc.edu>, 
-                        Amalia Riegelhuth <riegelhu@bc.edu>`}
-                    </p>                    
-                </Grid>
-                <Grid lg = {2}>
-
-                </Grid>
-            </Grid>
-            {/* <div style = {{width : '100%', backgroundColor : '#cc99ff'}}> */}
+                        {/* <div style = {{width : '100%', backgroundColor : '#cc99ff'}}> */}
                 <div style = {{backgroundColor: "#f2e6ff", width: '100%', borderWidth:'5px', height:'100%'}}>
                     <Grid container className = "padding20">
                         <Grid lg = {12}>
