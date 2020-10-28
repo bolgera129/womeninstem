@@ -12,19 +12,14 @@ export default function Programming(){
     function getListData(value) {
         let listData;
         switch (value.date()) {
-          case 14:
+          case 4:
             listData = [
               { type: 'success', content: 'Fireside Chat' }
             ];
             break;
-          case 20:
+          case 11:
             listData = [
-              { type: 'success', content: 'Strategic Networking Workshop' }
-            ];
-            break;
-          case 28:
-            listData = [
-              { type: 'success', content: 'Mentorship Event' }
+              { type: 'success', content: 'Fireside Chat' }
             ];
             break;
           default:
@@ -68,37 +63,41 @@ export default function Programming(){
               Featured Events
             </h1>
               <Grid container spacing = {8}>
-                <Grid lg = {4} sm = {12} item>
+              <Grid item lg = {2}></Grid>
+
+                <Grid lg = {3} sm = {12} item>
                   <Card
                     cover={
                       <img
                         alt="example"
-                        src="/WIS/Fireside_Chat_14th.png"
+                        src="/WIS/newevents/fsc1.png"
                       />
                     }
                   >
                     <Meta
-                      title="Fireside Chat with Professor Taghian"
-                      description="Wednesday October 14th, 7 PM"
+                      title="Fireside Chat with Nadine Taghian"
+                      description="Wednesday November 4th, 7 PM"
                     />
                   </Card>
                 </Grid>
-                <Grid item lg = {4} sm = {12}>
+                <Grid item lg = {2}></Grid>
+                <Grid item lg = {3} sm = {12}>
                 <Card
                     cover={
                       <img
                         alt="example"
-                        src="/WIS/gartner.png"
+                        src="/WIS/newevents/fsc2.png"
                       />
                     }
                   >
                     <Meta
-                      title="Strategic Networking Workshop"
-                      description="Tuesday October 20th, 7 PM"
+                      title="Fireside Chat with Professor Tonn"
+                      description="Wednesday November 11th, 8 PM"
                     />
                   </Card>
                 </Grid>
-                <Grid lg = {4} item xs = {12} sm = {12}>
+                <Grid lg = {2}></Grid>
+                {/* <Grid lg = {4} item xs = {12} sm = {12}>
                 <Card
                     cover={
                       <img
@@ -112,7 +111,7 @@ export default function Programming(){
                       description="Wednesday October 28th, 7 PM"
                     />
                   </Card>
-                </Grid>
+                </Grid> */}
               </Grid>
             </div>
             <h1>
