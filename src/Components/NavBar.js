@@ -23,7 +23,7 @@ export default function NavBar(){
                     <Nav.Link href="/eboard">Meet the E-Board</Nav.Link>
                     <Nav.Link href="/mentorship">Mentorship</Nav.Link>
                     <Nav.Link href="/tutoring">Tutoring</Nav.Link>
-                    <Nav.Link href="/events">Current Events</Nav.Link>
+                    <Nav.Link href="/events">Oppurtunities</Nav.Link>
                 </Nav>
                 <Nav className="justify-content-end">
                     <Nav.Link href="/contact">Contact Us</Nav.Link>
