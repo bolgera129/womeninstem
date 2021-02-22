@@ -78,7 +78,7 @@ export default function Events(){
             </Grid>
             <Divider/>
                 <h2>
-                    
+                    Summer Oppurtunities
                 </h2>
                 <Grid container>
                 <Grid item lg = {6}>
