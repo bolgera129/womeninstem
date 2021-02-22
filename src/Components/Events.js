@@ -61,7 +61,6 @@ export default function Events(){
                 </Grid>
                 <Grid item lg = {6}>
                 <Card className = 'event'>
-                    <a href = 'na.pdf'>
                         <Grid container justify = "center"  style= {{ padding: 0}}>
                                 <Grid item lg = {4} sm = {12}>
                                     <img src= "mc.png" style= {{width:"100px", height: "75px", padding: 0}} alt = 'our community now'/>
@@ -72,7 +71,6 @@ export default function Events(){
                                 </p>
                             </Grid>
                         </Grid>
-                    </a>
                 </Card>    
                 </Grid>
             </Grid>
