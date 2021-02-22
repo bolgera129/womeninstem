@@ -62,56 +62,57 @@ export default function Programming(){
             <h1 className = "centerText">
               Featured Events
             </h1>
-              <Grid container spacing = {8}>
-              <Grid item lg = {2}></Grid>
-
-                <Grid lg = {3} sm = {12} item>
+              <Grid container>
+                <Grid item container lg = {2}></Grid>
+                <Grid item container lg = {8} spacing = {2}>
+                  <Grid item lg = {4} sm = {12} item>
+                    <Card
+                      // cover={
+                      //   <img
+                      //     alt="example"
+                      //     src="/WIS/newevents/fsc1.png"
+                      //   />
+                      // }
+                    >
+                      <Meta
+                        title="Internship Panel"
+                        description="Thursday, March 4th at 7pm"
+                      />
+                    </Card>
+                  </Grid>
+                  <Grid item lg = {4} sm = {12}>
                   <Card
-                    cover={
-                      <img
-                        alt="example"
-                        src="/WIS/newevents/fsc1.png"
+                      // cover={
+                      //   <img
+                      //     alt="example"
+                      //     src="/WIS/newevents/fsc2.png"
+                      //   />
+                      // }
+                    >
+                      <Meta
+                        title="Fireside Chat with Karen Jarvis (Race and WIS)"
+                        description="Wednesday, March 10th at 7 pm"
                       />
-                    }
-                  >
-                    <Meta
-                      title="Fireside Chat with Nadine Taghian"
-                      description="Wednesday November 4th, 7 PM"
-                    />
-                  </Card>
+                    </Card>
+                  </Grid>
+                  <Grid lg = {4} item xs = {12} sm = {12}>
+                  <Card
+                      cover={
+                        <img
+                          alt="Professor Flebus"
+                          src="Flebus.png"
+                        />
+                      }
+                    >
+                      <Meta
+                        title="Fireside Chat with Professor Flebus"
+                        description="Tuesday, March 16th at 7 pm"
+                      />
+                    </Card>
+                  </Grid>
                 </Grid>
-                <Grid item lg = {2}></Grid>
-                <Grid item lg = {3} sm = {12}>
-                <Card
-                    cover={
-                      <img
-                        alt="example"
-                        src="/WIS/newevents/fsc2.png"
-                      />
-                    }
-                  >
-                    <Meta
-                      title="Fireside Chat with Professor Tonn"
-                      description="Wednesday November 11th, 8 PM"
-                    />
-                  </Card>
+                <Grid container lg = {8}>
                 </Grid>
-                <Grid lg = {2}></Grid>
-                {/* <Grid lg = {4} item xs = {12} sm = {12}>
-                <Card
-                    cover={
-                      <img
-                        alt="example"
-                        src="/WIS/MentorshipEvent28.png"
-                      />
-                    }
-                  >
-                    <Meta
-                      title="Mentorship Event"
-                      description="Wednesday October 28th, 7 PM"
-                    />
-                  </Card>
-                </Grid> */}
               </Grid>
             </div>
             <h1>

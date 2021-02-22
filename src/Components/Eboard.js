@@ -294,6 +294,32 @@ export default function Eboard(props){
                             </p>
                         </strong>
                     </Grid>
+                    <Grid container lg = {12} className = "padding20">
+                    <Grid item lg = {8}>
+                        <h1>Julie Satterthwaite</h1>
+                        <strong>
+                            <p>
+                            Position: Freshman Representative
+                            </p>
+                            <p>
+                            Major: Biology
+                            </p>
+                            <p>
+                            Class: 2024
+                            </p>
+                            <p>
+                            Hometown: West Chester, PA (but I was born in Brussels, Belgium!)
+                            </p>
+                            <p>
+                            Clubs/Hobbies: I love to play soccer, and I also love doing calligraphy! I work at a coffee/ cupcake shop when I’m home, and I love decorating our coffee sleeves with fun sayings! I also love cooking and baking, especially for other people.                            </p>
+                            <p>
+                            What you’re excited for this semester in WIS: I am so excited to get to work with all of the amazing women on the E-board! Everyone is so inviting and hardworking, and I can’t wait to learn so much from everyone. I also love going to the Fireside Chats, and I know we have a lot of great speakers coming up for this semester!                            </p>
+                        </strong>
+                    </Grid>
+                    <Grid item lg = {4}>
+                        <Image className = "headshot" src = "julie.jpg" width = {400} heigth = {400}/>
+                    </Grid>
+                </Grid>
                 </Grid>           
             </Grid>
         </div>
