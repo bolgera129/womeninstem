@@ -67,12 +67,12 @@ export default function Programming(){
                 <Grid item container lg = {8} spacing = {2}>
                   <Grid item lg = {4} sm = {12} item>
                     <Card
-                      // cover={
-                      //   <img
-                      //     alt="example"
-                      //     src="/WIS/newevents/fsc1.png"
-                      //   />
-                      // }
+                      cover={
+                        <img
+                          alt="example"
+                          src="internship.png"
+                        />
+                      }
                     >
                       <Meta
                         title="Internship Panel"
@@ -82,12 +82,12 @@ export default function Programming(){
                   </Grid>
                   <Grid item lg = {4} sm = {12}>
                   <Card
-                      // cover={
-                      //   <img
-                      //     alt="example"
-                      //     src="/WIS/newevents/fsc2.png"
-                      //   />
-                      // }
+                      cover={
+                        <img
+                          alt="example"
+                          src="karen.png"
+                        />
+                      }
                     >
                       <Meta
                         title="Fireside Chat with Karen Jarvis (Race and WIS)"
